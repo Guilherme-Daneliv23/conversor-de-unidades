@@ -1,0 +1,9 @@
+.desenvolvedor  {
+    width: 100vw;
+    height: 70px;
+    background-color: #9BE0FF;
+    border-top: 1px solid #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
