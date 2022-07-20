@@ -1,7 +1,6 @@
-.copyright  {
-    width: 100%;
+footer {
     display: flex;
+    background-color: #9BE0FF;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
 }
