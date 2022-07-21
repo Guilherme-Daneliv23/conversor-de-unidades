@@ -1,7 +1,7 @@
 .conteudo   {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 40px 0;
     color: #C9D5DB;
 }

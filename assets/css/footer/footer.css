@@ -1,6 +1,17 @@
 footer {
     display: flex;
     background-color: #9BE0FF;
-    flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+    footer   {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 922px){
+    footer  {
+        flex-direction: row;
+    }
 }

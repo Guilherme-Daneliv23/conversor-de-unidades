@@ -1,7 +1,18 @@
 .banner {
-    width: 100vw;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 375px){
+    .banner {
+        width: 100vw;
+    }
+}
+
+@media screen and(min-width: 922px) {
+    .banner {
+        width: 50vw;
+    }
 }
