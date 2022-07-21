@@ -1,8 +1,8 @@
 .cabecalho  {
-    width: 100vw;
-    height: 50px;
+    align-items: center;
     background-color: #C9D5DB;
     display: flex;
-    align-items: center;
+    height: 50px;
     justify-content: center;
+    width: 100vw;
 }

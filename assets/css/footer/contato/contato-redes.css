@@ -1,7 +1,7 @@
 .contato__redes {
-    display: flex;
     align-items: center;
+    color: #505050;
+    display: flex;
     justify-content: space-around;
     margin: 20px 70px;
-    color: #505050;
 }

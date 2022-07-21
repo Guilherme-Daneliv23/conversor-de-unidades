@@ -1,7 +1,7 @@
 footer {
-    display: flex;
-    background-color: #9BE0FF;
     align-items: center;
+    background-color: #9BE0FF;
+    display: flex;
 }
 
 @media screen and (min-width: 375px) {
