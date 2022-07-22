@@ -1,6 +1,7 @@
 body    {
     background-color: #505050;
     font-family: 'Gurajada', serif;
+    overflow-x: hidden;
 }
 
 a   {
