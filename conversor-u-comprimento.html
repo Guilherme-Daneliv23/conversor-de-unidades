@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidade de Comprimento</title>
+    <!-- Fonts e Ferramentas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gurajada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js">
+    
+    <!-- Genérico e Header -->
+    <link rel="stylesheet" href="./assets/css/geral/reset.css">
+    <link rel="stylesheet" href="./assets/css/geral/body.css">
+    <link rel="stylesheet" href="./assets/css/geral/header/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/geral/header/cabecalho/cabecalho-titulo.css">
+    <link rel="stylesheet" href="./assets/css/geral/header/desenvolvedor/desenvolvedor.css">
+    <link rel="stylesheet" href="./assets/css/geral/header/desenvolvedor/densvolvedor-img.css">
+
+
+    <!-- Footer -->
+    <link rel="stylesheet" href="./assets/css/geral/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/geral/footer/contato/contato.css">
+    <link rel="stylesheet" href="./assets/css/geral/footer/contato/contato-titulo.css">
+    <link rel="stylesheet" href="./assets/css/geral/footer/contato/contato-redes.css">
+    <link rel="stylesheet" href="./assets/css/geral/footer/copyright/copyright.css">
+    <link rel="stylesheet" href="./assets/css/geral/footer/copyright/copyright-texto.css">
+    <link rel="stylesheet" href="./assets/css/geral/footer/copyright/copyright-img.css">
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <h1 class="cabecalho__titulo">Conversor de Unidades</h1>
+        </section>
+        <section class="desenvolvedor">
+            <img class="desenvolvedor__img" src="./assets/img/logotipo-danelivti.png" alt="Logotipo Daneliv TI">
+        </section>
+    </header>
+
+    <main>
+        <section class="calculadora">
+            <p class="calculadora__texto">Digite o valor que deseja converter</p>
+            <div class="interface">
+                <input class="interface__input" type="text" id="valor">
+                <button class="interface__botao">mm</button>
+                <button class="interface__botao">cm</button>
+                <button class="interface__botao">dm</button>
+                <button class="interface__botao">m</button>
+                <button class="interface__botao">dam</button>
+                <button class="interface__botao">hm</button>
+                <button class="interface__botao">km</button>
+                <button class="interface__botao--converter">Converter</button>
+            </div>
+        </section>
+        <section class="resultados">
+            <div class="retorno">
+                <p class="retorno__texto">mm</p>
+                <input class="retorno__input" type="text">
+            </div>
+            <div class="retorno">
+                <p class="retorno__texto">cm</p>
+                <input class="retorno__input" type="text">
+            </div>
+            <div class="retorno">
+                <p class="retorno__texto">dm</p>
+                <input class="retorno__input" type="text">
+            </div>
+            <div class="retorno">
+                <p class="retorno__texto">m</p>
+                <input class="retorno__input" type="text">
+            </div>
+            <div class="retorno">
+                <p class="retorno__texto">dam</p>
+                <input class="retorno__input" type="text">
+            </div>
+            <div class="retorno">
+                <p class="retorno__texto">hm</p>
+                <input class="retorno__input" type="text">
+            </div>
+            <div class="retorno">
+                <p class="retorno__texto">km</p>
+                <input class="retorno__input" type="text">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contato">
+        <h2 class="contato__titulo">Contato</h2>
+            <div class="contato__redes">
+                <i class="fab fa-whatsapp fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-tiktok fa-2x"></i>
+            </div> 
+        </section>
+        <section class="copyright">
+            <img class="copyright__img" src="./assets/img/logotipo-danelivti.png" alt="">
+            <p class="copyright__texto">&copy;copyright DanelivTI 2022</p>
+        </section>
+    </footer>
+</body>
+</html>
