@@ -4,6 +4,6 @@ body    {
     overflow-x: hidden;
 }
 
-a   {
+a, button   {
     font-family: 'Gurajada', serif;
 }

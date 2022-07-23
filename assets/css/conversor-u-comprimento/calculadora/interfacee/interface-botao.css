@@ -1,0 +1,15 @@
+.interface__botao   {
+    width: 50px;
+    height: 40px;
+    margin: 10px 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.interface__botao--converter  {
+    width: 140px;
+    height: 40px;
+    background-color: #9BE0FF;
+}
