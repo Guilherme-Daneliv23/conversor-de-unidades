@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gurajada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"> -->
     
     <!-- Genérico e Header -->
     <link rel="stylesheet" href="./assets/css/geral/reset.css">
@@ -53,47 +53,42 @@
 
     <main class="main">
         <section class="calculadora">
-            <p class="calculadora__texto">Digite o valor que deseja converter</p>
             <div class="interface">
-                <input class="interface__input" type="text" id="valor">
-                <button class="interface__botao">mm</button>
-                <button class="interface__botao">cm</button>
-                <button class="interface__botao">dm</button>
-                <button class="interface__botao">m</button>
-                <button class="interface__botao">dam</button>
-                <button class="interface__botao">hm</button>
-                <button class="interface__botao">km</button>
-                <button class="interface__botao interface__botao--converter">Converter</button>
+                <p class="calculadora__texto">Digite o valor que deseja converter</p>
+                <input class="interface__input" type="number" id="valor">
+                <p class="calculadora__texto">Digite a unidade em que o valor está</p>
+                <input class="interface__input" id="unidade" type="text">
+                <button id="converter" class="interface__botao interface__botao--converter">Converter</button>
             </div>
         </section>
         <section class="resultados">
             <div class="retorno">
                 <p class="retorno__texto">mm</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
             <div class="retorno">
                 <p class="retorno__texto">cm</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
             <div class="retorno">
                 <p class="retorno__texto">dm</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
             <div class="retorno">
                 <p class="retorno__texto">m</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
             <div class="retorno">
                 <p class="retorno__texto">dam</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
             <div class="retorno">
                 <p class="retorno__texto">hm</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
             <div class="retorno">
                 <p class="retorno__texto">km</p>
-                <input class="retorno__input" type="text">
+                <input data-unidades class="retorno__input" type="number" value="0">
             </div>
         </section>
     </main>
@@ -113,5 +108,7 @@
             <p class="copyright__texto">&copy;copyright DanelivTI 2022</p>
         </section>
     </footer>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
